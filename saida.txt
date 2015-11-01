@@ -1,0 +1,80 @@
++------------------------------------------+
+|                                          |  
+|   EP - MAC0427 Programação Não Linear    |  
+|          Marcos Kazuya Yamazaki          |  
+|                                          |  
+|   NUSP: 7577622                          |  
+|   Data: 01/Julho/2015                    |  
+|   Professor: Walter Mascarenhas          |  
+|                                          |  
++------------------------------------------+
+
+   Problema: Minimização de uma função não linear
+irretrita pelo método de Newnton regularizado
+
+   O programa aceita funções de até três variáveis,
+sendo que elas tem que ser obrigatoriamente escritas
+em funções das variavies x, y e z.
+   O programa nunca terminará caso o problema é
+ilimitado, com o custo ótimo -infinito. 
+
+Digite a funcao que deseja minimizar
+em função de x, y e z: x^2 + 3*x*y + 5*y^2 + 2*x + 3*y
+ 
+f =
+ 
+x^2 + 3*x*y + 2*x + 5*y^2 + 3*y
+ 
+Digite os valores do primeiro ponto
+x: 1
+y: 1
+z: 0
+Ponto de partida [1.000, 1.000, 0.000]"
+O valor da função neste ponto é 14.0000
+
+------------------- Iteração 0 -------------------
+
+Gradiente da função: [7.000, 16.000, 0.000]`
+Passo e distancia: 0.02*[-23.49, -84.10, 0.00]`
+
+Novo ponto calculado: [0.576, -0.518, 0.000]`
+O valor da função neste ponto é: 0.3764
+
+------------------- Iteração 1 -------------------
+
+Gradiente da função: [1.600, -0.447, 0.000]`
+Passo e distancia: 0.20*[-7.81, 2.83, 0.00]`
+
+Novo ponto calculado: [-0.971, 0.043, 0.000]`
+O valor da função neste ponto é: -0.9861
+
+------------------- Iteração 2 -------------------
+
+Gradiente da função: [0.188, 0.518, 0.000]`
+Passo e distancia: 0.02*[-0.74, -2.65, 0.00]`
+
+Novo ponto calculado: [-0.984, -0.005, 0.000]`
+O valor da função neste ponto é: -0.9999
+
+------------------- Iteração 3 -------------------
+
+Gradiente da função: [0.016, -0.005, 0.000]`
+Passo e distancia: 0.20*[-0.08, 0.03, 0.00]`
+
+Novo ponto calculado: [-1.000, 0.000, 0.000]`
+O valor da função neste ponto é: -1.0000
+
+------------------- Iteração 4 -------------------
+
+Gradiente da função: [0.002, 0.005, 0.000]`
+Passo e distancia: 0.02*[-0.01, -0.03, 0.00]`
+
+Novo ponto calculado: [-1.000, -0.000, 0.000]`
+O valor da função neste ponto é: -1.0000
+
+------------------- Iteração 5 -------------------
+
+Gradiente da função: [0.000, -0.000, 0.000]`
+Ponto de mímino local: [-1.000, -0.000, 0.000]`
+
+Com valor da função: -1.0000
